@@ -35,6 +35,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdk 33
 
+    namespace 'com.ljk.leak_detector'
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
